@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #ffdc00;
+  color: #111;
+}
+
+h1 {
+  margin: 0;
+  font: bold 70px Georgia, "Times New Roman", serif;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 4px;
+  background: #050505;
+  color: #ffdc00;
+  font: bold 12px Georgia, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #111;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button:focus-visible {
+  outline: 2px solid #111;
+  outline-offset: 3px;
+}
